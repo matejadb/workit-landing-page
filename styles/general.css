@@ -101,6 +101,10 @@ body {
 	overflow-x: hidden;
 }
 
+/************************************************/
+/*          GENERAL REUSABLE COMPONENTS         */
+/************************************************/
+
 .grid {
 	display: grid;
 	gap: 3.2rem;
