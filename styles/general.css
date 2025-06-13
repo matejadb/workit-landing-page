@@ -1,0 +1,83 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+	-FONT SIZE SYSTEM (px):
+	18 / 32 / 56 / 80
+
+  -FONT WEIGHTS:
+    -Medium: 500
+    -Semi-bold: 600
+    -Bold: 700
+
+  -LINE HEIGHTS:
+    -Default: 1
+    -Small: 1.2
+    -Medium: 1.5
+    -Big: 1.8    
+
+--- 02 COLOURS
+    -Green: 
+      --green: #44ffa1;
+    -Purple: 
+      --purple-900: #24053e;
+      --purple-500: #584d62;
+      --purple-100: #fcf8ff;
+    White:
+      --white: #fff;
+
+
+--- 05 SHADOWS		 
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+  -SPACING SYSTEM (px):
+	8 / 12 / 16 / 20 / 28 / 32 / 40 / 44 / 56 / 64 / 80 / 88 / 112 / 128 / 144 / 168 / 296
+*/
+
+/********************************************/
+/*          COLOURS AND TYPOGRAPHY          */
+/********************************************/
+
+:root {
+	--green: #44ffa1;
+	--purple-900: #24053e;
+	--purple-500: #584d62;
+	--purple-100: #fcf8ff;
+	--white: #fff;
+}
+
+.text--preset-1 {
+	font-size: 8rem;
+	line-height: 1;
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 600;
+}
+
+.text--preset-2 {
+	font-size: 5.6rem;
+	line-height: 1.2;
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 600;
+}
+
+.text--preset-3 {
+	font-size: 3.2rem;
+	line-height: 1.2;
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 600;
+}
+
+.text--preset-4 {
+	font-size: 1.8rem;
+	line-height: 1.8;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 500;
+}
+
+.text--preset-5 {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 700;
+}
