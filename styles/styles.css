@@ -137,3 +137,11 @@
 .information-description h3 {
 	color: var(--purple-900);
 }
+
+/*****************************************/
+/*              CTA SECTION              */
+/*****************************************/
+
+.section-cta {
+	padding-top: 11.2rem;
+}
