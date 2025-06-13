@@ -101,6 +101,15 @@ body {
 	overflow-x: hidden;
 }
 
+.grid {
+	display: grid;
+	gap: 3.2rem;
+}
+
+.grid--3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
 .container {
 	max-width: 112rem;
 	margin: 0 auto;
