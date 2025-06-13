@@ -81,3 +81,79 @@
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
 }
+
+/****************************/
+/*          RESETS          */
+/****************************/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	/* 1rem = 10px */
+	font-size: 62.5%;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 112rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btn--primary:link,
+.btn--primary:visited {
+	background-color: var(--green);
+	color: var(--purple-900);
+	padding: 1.2rem 3.2rem;
+	width: 16.2rem;
+	margin: 0 auto;
+	transition: all 0.3s;
+}
+
+.btn--primary:hover,
+.btn--primary:active {
+	background-color: var(--white);
+	color: var(--green);
+	box-shadow: inset 0 0 0 3px var(--green);
+}
+
+.btn--secondary:link,
+.btn--secondary:visited {
+	color: var(--white);
+	width: 14.3rem;
+	height: 3.5rem;
+	border-bottom: 3px solid var(--green);
+	transition: all 0.3s;
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+	color: var(--green);
+}
+
+.hero--bg {
+	position: absolute;
+}
+
+.bg-pattern-1 {
+	top: 20%;
+	left: -6%;
+}
+
+.bg-pattern-2 {
+	top: 50%;
+	right: -3%;
+}
