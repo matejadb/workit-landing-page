@@ -79,7 +79,7 @@
 
 .section-information {
 	background-color: var(--purple-100);
-	padding: 29.6rem 0 14.4rem 0;
+	padding: 29.6rem 8rem 14.4rem 8rem;
 	position: relative;
 }
 
@@ -143,5 +143,62 @@
 /*****************************************/
 
 .section-cta {
-	padding-top: 11.2rem;
+	height: 69.1rem;
+	padding: 11.2rem 8rem 0 8rem;
+	position: relative;
+}
+
+.cta-headshot {
+	height: 47.7rem;
+	width: 47.7rem;
+	position: absolute;
+}
+
+.cta-headshot img {
+	height: 45rem;
+	width: 45rem;
+}
+
+.cta-content {
+	width: 73rem;
+	padding: 6.4rem 6.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3.2rem;
+	background-color: var(--purple-900);
+	color: var(--white);
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-25%, -10%);
+}
+
+.cta-content a {
+	background-color: var(--green);
+	color: var(--purple-900);
+}
+
+/*****************************************/
+/*      	    FOOTER SECTION      	 	   */
+/*****************************************/
+
+.footer {
+	padding: 11.2rem 8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5.6rem;
+}
+
+.social-links {
+	list-style: none;
+	display: flex;
+	gap: 2.8rem;
+}
+
+.link {
+	height: 2rem;
+	width: 2rem;
 }
